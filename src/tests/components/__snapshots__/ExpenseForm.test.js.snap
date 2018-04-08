@@ -1,0 +1,1327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Expense Form 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ExpenseForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "Expense Form",
+        <form
+          onSubmit={[Function]}
+>
+          <TextField
+                    autoFocus={true}
+                    disabled={false}
+                    errorText=""
+                    floatingLabelFixed={false}
+                    floatingLabelText="Description"
+                    fullWidth={false}
+                    multiLine={false}
+                    onChange={[Function]}
+                    rows={1}
+                    type="text"
+                    underlineShow={true}
+                    value=""
+          />
+          <br />
+          <TextField
+                    disabled={false}
+                    errorText=""
+                    floatingLabelFixed={false}
+                    floatingLabelText="Amount"
+                    fullWidth={false}
+                    multiLine={false}
+                    onChange={[Function]}
+                    rows={1}
+                    type="text"
+                    underlineShow={true}
+                    value=""
+          />
+          <br />
+          <br />
+          <DatePicker
+                    autoOk={true}
+                    container="dialog"
+                    disableYearSelection={false}
+                    disabled={false}
+                    firstDayOfWeek={1}
+                    floatingLabelText="Choose date"
+                    hideCalendarDate={false}
+                    mode="landscape"
+                    onChange={[Function]}
+                    openToYearSelection={false}
+                    style={Object {}}
+                    value={"1970-01-01T00:00:00.000Z"}
+          />
+          <TextField
+                    disabled={false}
+                    floatingLabelFixed={false}
+                    floatingLabelText="Add a note for your expense"
+                    fullWidth={false}
+                    multiLine={true}
+                    onChange={[Function]}
+                    rows={3}
+                    type="text"
+                    underlineShow={true}
+                    value=""
+          />
+          <br />
+          <br />
+          <RaisedButton
+                    disabled={false}
+                    fullWidth={false}
+                    label="Add Expense"
+                    labelPosition="after"
+                    onClick={[Function]}
+                    primary={true}
+                    secondary={false}
+                    type="submit"
+          />
+</form>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      "Expense Form",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextField
+              autoFocus={true}
+              disabled={false}
+              errorText=""
+              floatingLabelFixed={false}
+              floatingLabelText="Description"
+              fullWidth={false}
+              multiLine={false}
+              onChange={[Function]}
+              rows={1}
+              type="text"
+              underlineShow={true}
+              value=""
+/>,
+            <br />,
+            <TextField
+              disabled={false}
+              errorText=""
+              floatingLabelFixed={false}
+              floatingLabelText="Amount"
+              fullWidth={false}
+              multiLine={false}
+              onChange={[Function]}
+              rows={1}
+              type="text"
+              underlineShow={true}
+              value=""
+/>,
+            <br />,
+            <br />,
+            <DatePicker
+              autoOk={true}
+              container="dialog"
+              disableYearSelection={false}
+              disabled={false}
+              firstDayOfWeek={1}
+              floatingLabelText="Choose date"
+              hideCalendarDate={false}
+              mode="landscape"
+              onChange={[Function]}
+              openToYearSelection={false}
+              style={Object {}}
+              value={"1970-01-01T00:00:00.000Z"}
+/>,
+            <TextField
+              disabled={false}
+              floatingLabelFixed={false}
+              floatingLabelText="Add a note for your expense"
+              fullWidth={false}
+              multiLine={true}
+              onChange={[Function]}
+              rows={3}
+              type="text"
+              underlineShow={true}
+              value=""
+/>,
+            <br />,
+            <br />,
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Add Expense"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+              type="submit"
+/>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoFocus": true,
+              "disabled": false,
+              "errorText": "",
+              "floatingLabelFixed": false,
+              "floatingLabelText": "Description",
+              "fullWidth": false,
+              "multiLine": false,
+              "onChange": [Function],
+              "rows": 1,
+              "type": "text",
+              "underlineShow": true,
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "errorText": "",
+              "floatingLabelFixed": false,
+              "floatingLabelText": "Amount",
+              "fullWidth": false,
+              "multiLine": false,
+              "onChange": [Function],
+              "rows": 1,
+              "type": "text",
+              "underlineShow": true,
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoOk": true,
+              "container": "dialog",
+              "disableYearSelection": false,
+              "disabled": false,
+              "firstDayOfWeek": 1,
+              "floatingLabelText": "Choose date",
+              "hideCalendarDate": false,
+              "mode": "landscape",
+              "onChange": [Function],
+              "openToYearSelection": false,
+              "style": Object {},
+              "value": "1970-01-01T00:00:00.000Z",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "floatingLabelFixed": false,
+              "floatingLabelText": "Add a note for your expense",
+              "fullWidth": false,
+              "multiLine": true,
+              "onChange": [Function],
+              "rows": 3,
+              "type": "text",
+              "underlineShow": true,
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Add Expense",
+              "labelPosition": "after",
+              "onClick": [Function],
+              "primary": true,
+              "secondary": false,
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "Expense Form",
+          <form
+            onSubmit={[Function]}
+>
+            <TextField
+                        autoFocus={true}
+                        disabled={false}
+                        errorText=""
+                        floatingLabelFixed={false}
+                        floatingLabelText="Description"
+                        fullWidth={false}
+                        multiLine={false}
+                        onChange={[Function]}
+                        rows={1}
+                        type="text"
+                        underlineShow={true}
+                        value=""
+            />
+            <br />
+            <TextField
+                        disabled={false}
+                        errorText=""
+                        floatingLabelFixed={false}
+                        floatingLabelText="Amount"
+                        fullWidth={false}
+                        multiLine={false}
+                        onChange={[Function]}
+                        rows={1}
+                        type="text"
+                        underlineShow={true}
+                        value=""
+            />
+            <br />
+            <br />
+            <DatePicker
+                        autoOk={true}
+                        container="dialog"
+                        disableYearSelection={false}
+                        disabled={false}
+                        firstDayOfWeek={1}
+                        floatingLabelText="Choose date"
+                        hideCalendarDate={false}
+                        mode="landscape"
+                        onChange={[Function]}
+                        openToYearSelection={false}
+                        style={Object {}}
+                        value={"1970-01-01T00:00:00.000Z"}
+            />
+            <TextField
+                        disabled={false}
+                        floatingLabelFixed={false}
+                        floatingLabelText="Add a note for your expense"
+                        fullWidth={false}
+                        multiLine={true}
+                        onChange={[Function]}
+                        rows={3}
+                        type="text"
+                        underlineShow={true}
+                        value=""
+            />
+            <br />
+            <br />
+            <RaisedButton
+                        disabled={false}
+                        fullWidth={false}
+                        label="Add Expense"
+                        labelPosition="after"
+                        onClick={[Function]}
+                        primary={true}
+                        secondary={false}
+                        type="submit"
+            />
+</form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        "Expense Form",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextField
+                autoFocus={true}
+                disabled={false}
+                errorText=""
+                floatingLabelFixed={false}
+                floatingLabelText="Description"
+                fullWidth={false}
+                multiLine={false}
+                onChange={[Function]}
+                rows={1}
+                type="text"
+                underlineShow={true}
+                value=""
+/>,
+              <br />,
+              <TextField
+                disabled={false}
+                errorText=""
+                floatingLabelFixed={false}
+                floatingLabelText="Amount"
+                fullWidth={false}
+                multiLine={false}
+                onChange={[Function]}
+                rows={1}
+                type="text"
+                underlineShow={true}
+                value=""
+/>,
+              <br />,
+              <br />,
+              <DatePicker
+                autoOk={true}
+                container="dialog"
+                disableYearSelection={false}
+                disabled={false}
+                firstDayOfWeek={1}
+                floatingLabelText="Choose date"
+                hideCalendarDate={false}
+                mode="landscape"
+                onChange={[Function]}
+                openToYearSelection={false}
+                style={Object {}}
+                value={"1970-01-01T00:00:00.000Z"}
+/>,
+              <TextField
+                disabled={false}
+                floatingLabelFixed={false}
+                floatingLabelText="Add a note for your expense"
+                fullWidth={false}
+                multiLine={true}
+                onChange={[Function]}
+                rows={3}
+                type="text"
+                underlineShow={true}
+                value=""
+/>,
+              <br />,
+              <br />,
+              <RaisedButton
+                disabled={false}
+                fullWidth={false}
+                label="Add Expense"
+                labelPosition="after"
+                onClick={[Function]}
+                primary={true}
+                secondary={false}
+                type="submit"
+/>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoFocus": true,
+                "disabled": false,
+                "errorText": "",
+                "floatingLabelFixed": false,
+                "floatingLabelText": "Description",
+                "fullWidth": false,
+                "multiLine": false,
+                "onChange": [Function],
+                "rows": 1,
+                "type": "text",
+                "underlineShow": true,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "errorText": "",
+                "floatingLabelFixed": false,
+                "floatingLabelText": "Amount",
+                "fullWidth": false,
+                "multiLine": false,
+                "onChange": [Function],
+                "rows": 1,
+                "type": "text",
+                "underlineShow": true,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoOk": true,
+                "container": "dialog",
+                "disableYearSelection": false,
+                "disabled": false,
+                "firstDayOfWeek": 1,
+                "floatingLabelText": "Choose date",
+                "hideCalendarDate": false,
+                "mode": "landscape",
+                "onChange": [Function],
+                "openToYearSelection": false,
+                "style": Object {},
+                "value": "1970-01-01T00:00:00.000Z",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "floatingLabelFixed": false,
+                "floatingLabelText": "Add a note for your expense",
+                "fullWidth": false,
+                "multiLine": true,
+                "onChange": [Function],
+                "rows": 3,
+                "type": "text",
+                "underlineShow": true,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "fullWidth": false,
+                "label": "Add Expense",
+                "labelPosition": "after",
+                "onClick": [Function],
+                "primary": true,
+                "secondary": false,
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`should render Expense Form with props 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ExpenseForm
+    expense={
+        Object {
+            "amount": 195,
+            "createdAt": 0,
+            "description": "Coffee",
+            "id": "1",
+            "note": "",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "Expense Form",
+        <form
+          onSubmit={[Function]}
+>
+          <TextField
+                    autoFocus={true}
+                    disabled={false}
+                    errorText=""
+                    floatingLabelFixed={false}
+                    floatingLabelText="Description"
+                    fullWidth={false}
+                    multiLine={false}
+                    onChange={[Function]}
+                    rows={1}
+                    type="text"
+                    underlineShow={true}
+                    value="Coffee"
+          />
+          <br />
+          <TextField
+                    disabled={false}
+                    errorText=""
+                    floatingLabelFixed={false}
+                    floatingLabelText="Amount"
+                    fullWidth={false}
+                    multiLine={false}
+                    onChange={[Function]}
+                    rows={1}
+                    type="text"
+                    underlineShow={true}
+                    value="1.95"
+          />
+          <br />
+          <br />
+          <DatePicker
+                    autoOk={true}
+                    container="dialog"
+                    disableYearSelection={false}
+                    disabled={false}
+                    firstDayOfWeek={1}
+                    floatingLabelText="Choose date"
+                    hideCalendarDate={false}
+                    mode="landscape"
+                    onChange={[Function]}
+                    openToYearSelection={false}
+                    style={Object {}}
+                    value={"1970-01-01T00:00:00.000Z"}
+          />
+          <TextField
+                    disabled={false}
+                    floatingLabelFixed={false}
+                    floatingLabelText="Add a note for your expense"
+                    fullWidth={false}
+                    multiLine={true}
+                    onChange={[Function]}
+                    rows={3}
+                    type="text"
+                    underlineShow={true}
+                    value=""
+          />
+          <br />
+          <br />
+          <RaisedButton
+                    disabled={false}
+                    fullWidth={false}
+                    label="Add Expense"
+                    labelPosition="after"
+                    onClick={[Function]}
+                    primary={true}
+                    secondary={false}
+                    type="submit"
+          />
+</form>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      "Expense Form",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextField
+              autoFocus={true}
+              disabled={false}
+              errorText=""
+              floatingLabelFixed={false}
+              floatingLabelText="Description"
+              fullWidth={false}
+              multiLine={false}
+              onChange={[Function]}
+              rows={1}
+              type="text"
+              underlineShow={true}
+              value="Coffee"
+/>,
+            <br />,
+            <TextField
+              disabled={false}
+              errorText=""
+              floatingLabelFixed={false}
+              floatingLabelText="Amount"
+              fullWidth={false}
+              multiLine={false}
+              onChange={[Function]}
+              rows={1}
+              type="text"
+              underlineShow={true}
+              value="1.95"
+/>,
+            <br />,
+            <br />,
+            <DatePicker
+              autoOk={true}
+              container="dialog"
+              disableYearSelection={false}
+              disabled={false}
+              firstDayOfWeek={1}
+              floatingLabelText="Choose date"
+              hideCalendarDate={false}
+              mode="landscape"
+              onChange={[Function]}
+              openToYearSelection={false}
+              style={Object {}}
+              value={"1970-01-01T00:00:00.000Z"}
+/>,
+            <TextField
+              disabled={false}
+              floatingLabelFixed={false}
+              floatingLabelText="Add a note for your expense"
+              fullWidth={false}
+              multiLine={true}
+              onChange={[Function]}
+              rows={3}
+              type="text"
+              underlineShow={true}
+              value=""
+/>,
+            <br />,
+            <br />,
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Add Expense"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+              type="submit"
+/>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoFocus": true,
+              "disabled": false,
+              "errorText": "",
+              "floatingLabelFixed": false,
+              "floatingLabelText": "Description",
+              "fullWidth": false,
+              "multiLine": false,
+              "onChange": [Function],
+              "rows": 1,
+              "type": "text",
+              "underlineShow": true,
+              "value": "Coffee",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "errorText": "",
+              "floatingLabelFixed": false,
+              "floatingLabelText": "Amount",
+              "fullWidth": false,
+              "multiLine": false,
+              "onChange": [Function],
+              "rows": 1,
+              "type": "text",
+              "underlineShow": true,
+              "value": "1.95",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoOk": true,
+              "container": "dialog",
+              "disableYearSelection": false,
+              "disabled": false,
+              "firstDayOfWeek": 1,
+              "floatingLabelText": "Choose date",
+              "hideCalendarDate": false,
+              "mode": "landscape",
+              "onChange": [Function],
+              "openToYearSelection": false,
+              "style": Object {},
+              "value": "1970-01-01T00:00:00.000Z",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "floatingLabelFixed": false,
+              "floatingLabelText": "Add a note for your expense",
+              "fullWidth": false,
+              "multiLine": true,
+              "onChange": [Function],
+              "rows": 3,
+              "type": "text",
+              "underlineShow": true,
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Add Expense",
+              "labelPosition": "after",
+              "onClick": [Function],
+              "primary": true,
+              "secondary": false,
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "Expense Form",
+          <form
+            onSubmit={[Function]}
+>
+            <TextField
+                        autoFocus={true}
+                        disabled={false}
+                        errorText=""
+                        floatingLabelFixed={false}
+                        floatingLabelText="Description"
+                        fullWidth={false}
+                        multiLine={false}
+                        onChange={[Function]}
+                        rows={1}
+                        type="text"
+                        underlineShow={true}
+                        value="Coffee"
+            />
+            <br />
+            <TextField
+                        disabled={false}
+                        errorText=""
+                        floatingLabelFixed={false}
+                        floatingLabelText="Amount"
+                        fullWidth={false}
+                        multiLine={false}
+                        onChange={[Function]}
+                        rows={1}
+                        type="text"
+                        underlineShow={true}
+                        value="1.95"
+            />
+            <br />
+            <br />
+            <DatePicker
+                        autoOk={true}
+                        container="dialog"
+                        disableYearSelection={false}
+                        disabled={false}
+                        firstDayOfWeek={1}
+                        floatingLabelText="Choose date"
+                        hideCalendarDate={false}
+                        mode="landscape"
+                        onChange={[Function]}
+                        openToYearSelection={false}
+                        style={Object {}}
+                        value={"1970-01-01T00:00:00.000Z"}
+            />
+            <TextField
+                        disabled={false}
+                        floatingLabelFixed={false}
+                        floatingLabelText="Add a note for your expense"
+                        fullWidth={false}
+                        multiLine={true}
+                        onChange={[Function]}
+                        rows={3}
+                        type="text"
+                        underlineShow={true}
+                        value=""
+            />
+            <br />
+            <br />
+            <RaisedButton
+                        disabled={false}
+                        fullWidth={false}
+                        label="Add Expense"
+                        labelPosition="after"
+                        onClick={[Function]}
+                        primary={true}
+                        secondary={false}
+                        type="submit"
+            />
+</form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        "Expense Form",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextField
+                autoFocus={true}
+                disabled={false}
+                errorText=""
+                floatingLabelFixed={false}
+                floatingLabelText="Description"
+                fullWidth={false}
+                multiLine={false}
+                onChange={[Function]}
+                rows={1}
+                type="text"
+                underlineShow={true}
+                value="Coffee"
+/>,
+              <br />,
+              <TextField
+                disabled={false}
+                errorText=""
+                floatingLabelFixed={false}
+                floatingLabelText="Amount"
+                fullWidth={false}
+                multiLine={false}
+                onChange={[Function]}
+                rows={1}
+                type="text"
+                underlineShow={true}
+                value="1.95"
+/>,
+              <br />,
+              <br />,
+              <DatePicker
+                autoOk={true}
+                container="dialog"
+                disableYearSelection={false}
+                disabled={false}
+                firstDayOfWeek={1}
+                floatingLabelText="Choose date"
+                hideCalendarDate={false}
+                mode="landscape"
+                onChange={[Function]}
+                openToYearSelection={false}
+                style={Object {}}
+                value={"1970-01-01T00:00:00.000Z"}
+/>,
+              <TextField
+                disabled={false}
+                floatingLabelFixed={false}
+                floatingLabelText="Add a note for your expense"
+                fullWidth={false}
+                multiLine={true}
+                onChange={[Function]}
+                rows={3}
+                type="text"
+                underlineShow={true}
+                value=""
+/>,
+              <br />,
+              <br />,
+              <RaisedButton
+                disabled={false}
+                fullWidth={false}
+                label="Add Expense"
+                labelPosition="after"
+                onClick={[Function]}
+                primary={true}
+                secondary={false}
+                type="submit"
+/>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoFocus": true,
+                "disabled": false,
+                "errorText": "",
+                "floatingLabelFixed": false,
+                "floatingLabelText": "Description",
+                "fullWidth": false,
+                "multiLine": false,
+                "onChange": [Function],
+                "rows": 1,
+                "type": "text",
+                "underlineShow": true,
+                "value": "Coffee",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "errorText": "",
+                "floatingLabelFixed": false,
+                "floatingLabelText": "Amount",
+                "fullWidth": false,
+                "multiLine": false,
+                "onChange": [Function],
+                "rows": 1,
+                "type": "text",
+                "underlineShow": true,
+                "value": "1.95",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "autoOk": true,
+                "container": "dialog",
+                "disableYearSelection": false,
+                "disabled": false,
+                "firstDayOfWeek": 1,
+                "floatingLabelText": "Choose date",
+                "hideCalendarDate": false,
+                "mode": "landscape",
+                "onChange": [Function],
+                "openToYearSelection": false,
+                "style": Object {},
+                "value": "1970-01-01T00:00:00.000Z",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "floatingLabelFixed": false,
+                "floatingLabelText": "Add a note for your expense",
+                "fullWidth": false,
+                "multiLine": true,
+                "onChange": [Function],
+                "rows": 3,
+                "type": "text",
+                "underlineShow": true,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "fullWidth": false,
+                "label": "Add Expense",
+                "labelPosition": "after",
+                "onClick": [Function],
+                "primary": true,
+                "secondary": false,
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

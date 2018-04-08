@@ -1,0 +1,9 @@
+.active div {
+    background-color: #eee;
+}
+
+.container {
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+  }

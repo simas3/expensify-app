@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Drawer component 1`] = `
+<div>
+  <TopBar
+    handleToggle={[Function]}
+  />
+  <Drawer
+    disableSwipeToOpen={false}
+    docked={false}
+    onRequestChange={[Function]}
+    open={false}
+    openSecondary={false}
+    swipeAreaWidth={30}
+    width={200}
+    zDepth={2}
+  >
+    <List>
+      <SideBarItem
+        isExact={true}
+        key="0"
+        linkTo="/"
+        onClick={[Function]}
+        primaryText="Home"
+      />
+      <SideBarItem
+        isExact={false}
+        key="1"
+        linkTo="/create"
+        onClick={[Function]}
+        primaryText="Create"
+      />
+      <SideBarItem
+        isExact={false}
+        key="2"
+        linkTo="/help"
+        onClick={[Function]}
+        primaryText="Help"
+      />
+    </List>
+  </Drawer>
+</div>
+`;
