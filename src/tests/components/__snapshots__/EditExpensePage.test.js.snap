@@ -5,7 +5,6 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <EditExpense
-    editExpense={[Function]}
     expense={
         Object {
             "amount": 195,
@@ -20,7 +19,8 @@ ShallowWrapper {
             "push": [Function],
           }
     }
-    removeExpense={[Function]}
+    startEditExpense={[Function]}
+    startRemoveExpense={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
