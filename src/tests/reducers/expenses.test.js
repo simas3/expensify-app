@@ -89,3 +89,27 @@ test('should not edit expense by od', () => {
     const state = expensesReducer(expenses, action)
     expect(state).toEqual([...expenses])
 })
+
+
+test('should set expenses', () => {
+    const setExpenses = [{
+        description: 'House',
+        note: '',
+        amount: 9999999999,
+        createdAt: 1111111110
+    },
+    {
+        description: 'Plane',
+        note: 'I bought a plane',
+        amount: 9999999999,
+        createdAt: 1111111110
+    }]
+
+    const action = {
+        type: 'SET_EXPENSES',
+        expenses: setExpenses
+    }
+
+    const state = expensesReducer(expenses, action)
+    expect(state).toEqual(action.expenses)
+})
