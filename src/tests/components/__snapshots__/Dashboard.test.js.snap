@@ -5,6 +5,7 @@ exports[`should render Dashboard component 1`] = `
   className="container"
 >
   <Connect(ExpenseListFilers) />
+  <Connect(ExpenseSummary) />
   <Connect(Component) />
 </div>
 `;

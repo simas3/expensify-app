@@ -5,9 +5,11 @@
   "dependencies": {
     "enzyme-to-json": "^3.3.3",
     "express": "^4.16.3",
+    "firebase": "^4.12.1",
     "material-ui": "^0.20.0",
     "moment": "^2.21.0",
     "normalize.css": "^8.0.0",
+    "numeral": "^2.0.6",
     "react": "^16.2.0",
     "react-dates": "^16.4.0",
     "react-dom": "^16.2.0",
@@ -17,10 +19,12 @@
     "react-scripts": "1.1.1",
     "react-test-renderer": "^16.3.0",
     "redux": "^3.7.2",
+    "redux-mock-store": "^1.5.1",
+    "redux-thunk": "^2.2.0",
     "uuid": "^3.2.1"
   },
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
