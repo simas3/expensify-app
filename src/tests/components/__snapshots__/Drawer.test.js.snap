@@ -1,10 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render Drawer component 1`] = `
+exports[`should render AppBarDrawer component 1`] = `
 <div>
-  <TopBar
-    handleToggle={[Function]}
-  />
+  <TopBar />
   <Drawer
     disableSwipeToOpen={false}
     docked={false}
@@ -19,7 +17,7 @@ exports[`should render Drawer component 1`] = `
       <SideBarItem
         isExact={true}
         key="0"
-        linkTo="/"
+        linkTo="/dashboard"
         onClick={[Function]}
         primaryText="Home"
       />
@@ -36,6 +34,10 @@ exports[`should render Drawer component 1`] = `
         linkTo="/help"
         onClick={[Function]}
         primaryText="Help"
+      />
+      <Logout
+        onClick={[Function]}
+        primaryText="Logout"
       />
     </List>
   </Drawer>

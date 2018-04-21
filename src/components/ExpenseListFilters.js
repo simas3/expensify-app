@@ -15,8 +15,6 @@ const items = [
 
 export class ExpenseListFilers extends Component {
 
-
-
     state = {
         calendarFocused: null
     }

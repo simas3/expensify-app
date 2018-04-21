@@ -1,32 +1,33 @@
 import React from 'react'
-import AppBarDrawer from '../components/Drawer'
 import Dashboard from '../components/Dashboard'
+import Login from '../components/Login'
 import AddExpense from '../components/AddExpense'
 import EditExpense from '../components/EditExpense'
-import Help from '../components/Help'
 import NotFound from '../components/NotFound'
-
+import createHistory from 'history/createBrowserHistory'
 import '../styles/App.css'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { Router, Route, Switch } from 'react-router-dom'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import muiTheme from '../theme/theme'
+import PrivateRoute from './PrivateRoute'
+import { PublicRoute } from './PublicRoute';
 
+export const history = createHistory()
 
 const Routes = () => (
-  <BrowserRouter>
+  <Router history={history}>
     <MuiThemeProvider muiTheme={muiTheme}>
       <div>
-        <AppBarDrawer />
         <Switch>
-          <Route path="/" component={Dashboard} exact />
-          <Route path="/create" component={AddExpense} />
-          <Route path="/edit/:id" component={EditExpense} />
-          <Route path="/help" component={Help} />
+          <PublicRoute path="/" component={Login} exact />
+          <PrivateRoute path="/dashboard" component={Dashboard} />
+          <PrivateRoute path="/create" component={AddExpense} />
+          <PrivateRoute path="/edit/:id" component={EditExpense} />
           <Route component={NotFound} />
         </Switch>
       </div>
     </MuiThemeProvider>
-  </BrowserRouter>
+  </Router>
 )
 
 

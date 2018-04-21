@@ -20,14 +20,14 @@ test('should render EditExpense component', () => {
 
 test('should handle onSubmit', () => {
     wrapper.find('ExpenseForm').prop('onSubmit')(expenses[0])
-    expect(history.push).toHaveBeenLastCalledWith('/')
+    expect(history.push).toHaveBeenLastCalledWith('/dashboard')
     expect(startEditExpense).toHaveBeenLastCalledWith(expenses[0].id, expenses[0])
 })
 
 
 test('should handle onClick', () => {
     wrapper.find('RaisedButton').prop('onClick')()
-    expect(history.push).toHaveBeenLastCalledWith('/')
+    expect(history.push).toHaveBeenLastCalledWith('/dashboard')
     expect(startRemoveExpense).toHaveBeenLastCalledWith({
         id: expenses[0].id
     })
