@@ -18,21 +18,19 @@ export class LoginComponent extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="center">
 
                 <Paper zDepth={this.state.zDepth}
                     onMouseEnter={this.handleMouseEnter}
                     onMouseLeave={this.handleMouseLeave} >
                     <Toolbar style={{ "justify-content": "center" }}>
-                        <ToolbarTitle text="Expensify App" />
+                        <ToolbarTitle style={{ fontSize: '25px' }} text="Expensify App" />
                     </Toolbar>
-                    <div style={{ textAlign: 'center', width: '100%', margin: '20px auto', padding: '20px auto' }}>
-
+                    <div style={{ fontSize: '20px', textAlign: 'center', width: '100%', margin: '20px auto', padding: '20px auto' }}>
                         Track your expenses
                     </div>
-                    <div style={{ width: '50%', margin: '20px auto 20px auto' }}>
-
-                        <RaisedButton onClick={this.props.startLogin} label="Login" primary={true} />
+                    <div style={{ width: '100%', margin: '20px auto 20px auto' }}>
+                        <RaisedButton fullWidth={true} onClick={this.props.startLogin} label="Login" primary={true} />
                     </div>
 
 
