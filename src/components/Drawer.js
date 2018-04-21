@@ -28,7 +28,7 @@ export class AppBarDrawer extends React.Component {
     render() {
         return (
             <div>
-                <TopBar handleToggle={this.handleTogge} />
+                <TopBar handleToggle={this.handleToggle} />
                 <Drawer
                     docked={false}
                     width={200}
